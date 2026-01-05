@@ -1,0 +1,97 @@
+{{ define "main" }}
+<article class="page contact-page">
+  <header class="page-header">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info content">
+        {{ .Content }}
+      </div>
+
+      <div class="contact-form-wrapper">
+        <h2>Send a Message</h2>
+
+        {{/* Formspree form - replace action URL with your form endpoint */}}
+        <form class="contact-form" action="https://formspree.io/f/{{ .Site.Params.formspreeId }}" method="POST">
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="organization">Organization</label>
+            <input type="text" id="organization" name="organization">
+          </div>
+
+          <div class="form-group">
+            <label for="subject">What can I help with?</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic...</option>
+              <option value="ontology">Ontology Development</option>
+              <option value="mapping">Semantic Mapping</option>
+              <option value="knowledge-graph">Knowledge Graph</option>
+              <option value="training">Training & Workshops</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project or question..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="timeline">Timeline (optional)</label>
+            <input type="text" id="timeline" name="timeline" placeholder="e.g., Starting in Q2, ASAP, Flexible">
+          </div>
+
+          {{/* Honeypot for spam prevention */}}
+          <input type="text" name="_gotcha" style="display:none">
+
+          <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+
+          <p class="form-hint">
+            I typically respond within 1-2 business days.
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</article>
+
+<style>
+.contact-grid {
+  display: grid;
+  gap: var(--space-12);
+}
+
+@media (min-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+.contact-form-wrapper {
+  background: var(--color-surface);
+  padding: var(--space-8);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.contact-form-wrapper h2 {
+  margin-top: 0;
+  margin-bottom: var(--space-6);
+}
+</style>
+{{ end }}

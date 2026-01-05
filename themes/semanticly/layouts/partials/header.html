@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="{{ "/" | relURL }}" class="logo" aria-label="{{ .Site.Params.businessName }} - Home">
+      {{ partial "icons/logo.html" . }}
+      <span class="logo-text">{{ .Site.Params.businessName }}</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="nav-toggle-icon"></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          <a href="{{ .URL }}" class="nav-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      <a href="{{ "/contact" | relURL }}" class="btn btn-primary nav-cta">Get in Touch</a>
+    </nav>
+  </div>
+</header>

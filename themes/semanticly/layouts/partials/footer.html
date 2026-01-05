@@ -1,0 +1,60 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="{{ "/" | relURL }}" class="footer-logo">
+          {{ partial "icons/logo.html" . }}
+          <span>{{ .Site.Params.businessName }}</span>
+        </a>
+        <p class="footer-tagline">{{ .Site.Params.tagline }}</p>
+        <p class="footer-description">{{ .Site.Params.description }}</p>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Navigation</h4>
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>
+            <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+          </li>
+          <li>{{ .Site.Params.location }}</li>
+        </ul>
+
+        <div class="social-links">
+          {{ with .Site.Params.linkedin }}
+          <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            {{ partial "icons/linkedin.html" }}
+          </a>
+          {{ end }}
+          {{ with .Site.Params.github }}
+          <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            {{ partial "icons/github.html" }}
+          </a>
+          {{ end }}
+          {{ with .Site.Params.orcid }}
+          <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+            {{ partial "icons/orcid.html" }}
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ now.Year }} {{ .Site.Params.businessName }}. All rights reserved.</p>
+      <nav class="footer-legal" aria-label="Legal links">
+        {{ range .Site.Menus.footer }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </div>
+</footer>

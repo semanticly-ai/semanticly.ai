@@ -1,0 +1,124 @@
+{{ define "main" }}
+{{/* Hero Section */}}
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Independent Consulting — Nicolas Matentzoglu, PhD</p>
+      <h1 class="hero-title">{{ .Site.Params.tagline }}</h1>
+      <p class="hero-subtitle">{{ .Site.Params.description }}</p>
+      <div class="hero-cta">
+        <a href="{{ "/services" | relURL }}" class="btn btn-primary">Explore Services</a>
+        <a href="{{ "/contact" | relURL }}" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      {{ partial "icons/hero-graphic.html" . }}
+    </div>
+  </div>
+</section>
+
+{{/* Services Overview */}}
+<section class="section services-section" id="services">
+  <div class="container">
+    <header class="section-header">
+      <h2>Services</h2>
+      <p>Expert consulting in semantic technologies, ontology development, and knowledge graph infrastructure.</p>
+    </header>
+
+    <div class="services-grid">
+      {{ range where .Site.RegularPages "Section" "services" }}
+      <article class="service-card">
+        <div class="service-icon">
+          {{ with .Params.icon }}{{ partial (printf "icons/%s.html" .) $ }}{{ else }}{{ partial "icons/check.html" $ }}{{ end }}
+        </div>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Description }}</p>
+      </article>
+      {{ end }}
+    </div>
+
+    <div class="section-cta">
+      <a href="{{ "/services" | relURL }}" class="btn btn-outline">View All Services</a>
+    </div>
+  </div>
+</section>
+
+{{/* Case Studies */}}
+<section class="section case-studies-section alt-bg" id="case-studies">
+  <div class="container">
+    <header class="section-header">
+      <h2>Featured Work</h2>
+      <p>Real-world projects demonstrating our expertise in semantic engineering and knowledge management.</p>
+    </header>
+
+    <div class="case-studies-grid">
+      {{ range first 3 (where .Site.RegularPages "Section" "case-studies") }}
+      <article class="case-study-card">
+        {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Title }}" class="case-study-image" loading="lazy">
+        {{ end }}
+        <div class="case-study-content">
+          <span class="case-study-category">{{ .Params.category }}</span>
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Description }}</p>
+          <a href="{{ .Permalink }}" class="link-arrow">
+            Read case study {{ partial "icons/arrow-right.html" . }}
+          </a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+
+    <div class="section-cta">
+      <a href="{{ "/case-studies" | relURL }}" class="btn btn-outline">View All Case Studies</a>
+    </div>
+  </div>
+</section>
+
+{{/* Process Section */}}
+<section class="section process-section" id="process">
+  <div class="container">
+    <header class="section-header">
+      <h2>How We Work</h2>
+      <p>A straightforward, collaborative approach to every engagement.</p>
+    </header>
+
+    <div class="process-steps">
+      <div class="process-step">
+        <span class="step-number">1</span>
+        <h3>Discovery</h3>
+        <p>We start by understanding your data landscape, challenges, and goals through structured conversations and analysis.</p>
+      </div>
+      <div class="process-step">
+        <span class="step-number">2</span>
+        <h3>Proposal</h3>
+        <p>Based on our findings, we develop a tailored proposal with clear deliverables, milestones, and transparent pricing.</p>
+      </div>
+      <div class="process-step">
+        <span class="step-number">3</span>
+        <h3>Delivery</h3>
+        <p>We execute iteratively with regular check-ins, ensuring you're informed and involved throughout the process.</p>
+      </div>
+      <div class="process-step">
+        <span class="step-number">4</span>
+        <h3>Handoff</h3>
+        <p>We deliver documentation, training, and ongoing support options to ensure long-term success with your new systems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* CTA Section */}}
+<section class="section cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to make your data work for you?</h2>
+      <p>Let's discuss how semantic technologies can transform your data infrastructure.</p>
+      <div class="cta-buttons">
+        <a href="{{ "/contact" | relURL }}" class="btn btn-primary btn-large">Schedule a Consultation</a>
+        <a href="mailto:{{ .Site.Params.email }}" class="btn btn-secondary btn-large">Email Us Directly</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

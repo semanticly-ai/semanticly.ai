@@ -1,0 +1,82 @@
+{{ define "main" }}
+<article class="page case-study-page">
+  <header class="page-header">
+    <div class="container">
+      {{ with .Params.category }}
+      <span class="case-study-category">{{ . }}</span>
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+    </div>
+  </header>
+
+  <div class="container content-wrapper">
+    {{/* Case Study Meta */}}
+    <div class="case-study-meta">
+      {{ with .Params.client }}
+      <div class="case-study-meta-item">
+        <strong>Client</strong>
+        {{ . }}
+      </div>
+      {{ end }}
+      {{ with .Params.duration }}
+      <div class="case-study-meta-item">
+        <strong>Duration</strong>
+        {{ . }}
+      </div>
+      {{ end }}
+      {{ with .Params.tags }}
+      <div class="case-study-meta-item">
+        <strong>Focus Areas</strong>
+        {{ range $i, $tag := . }}{{ if $i }}, {{ end }}{{ $tag }}{{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    {{/* Related case studies */}}
+    {{ $related := where (where .Site.RegularPages "Section" "case-studies") ".Permalink" "!=" .Permalink | first 2 }}
+    {{ with $related }}
+    <section class="related-case-studies">
+      <h2>Other Case Studies</h2>
+      <div class="case-studies-grid">
+        {{ range . }}
+        <article class="case-study-card">
+          <div class="case-study-content">
+            <span class="case-study-category">{{ .Params.category }}</span>
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Description }}</p>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  </div>
+</article>
+
+<style>
+.related-case-studies {
+  margin-top: var(--space-16);
+  padding-top: var(--space-12);
+  border-top: 1px solid var(--color-border);
+}
+
+.related-case-studies h2 {
+  margin-bottom: var(--space-8);
+}
+
+.related-case-studies .case-studies-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 768px) {
+  .related-case-studies .case-studies-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+{{ end }}

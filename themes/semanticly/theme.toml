@@ -1,0 +1,15 @@
+# Theme metadata
+name = "Semanticly"
+license = "MIT"
+licenselink = "https://github.com/yourname/semanticly/blob/master/LICENSE"
+description = "A clean, professional theme for consulting businesses"
+homepage = "https://semanticly.ai/"
+tags = ["consulting", "business", "minimal", "responsive"]
+features = ["responsive", "accessible", "seo"]
+
+[author]
+  name = "Nicolas Matentzoglu"
+  homepage = "https://semanticly.ai/"
+
+# Required Hugo version
+min_version = "0.100.0"

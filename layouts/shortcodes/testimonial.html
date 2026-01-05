@@ -1,0 +1,40 @@
+{{/*
+  Testimonial Shortcode
+  Usage: {{< testimonial author="Jane Doe" role="Director" org="Example Corp" >}}
+  Quote text goes here.
+  {{< /testimonial >}}
+*/}}
+<blockquote class="testimonial-inline">
+  <p class="testimonial-quote">"{{ .Inner }}"</p>
+  <footer class="testimonial-author">
+    <strong>{{ .Get "author" }}</strong>
+    {{ with .Get "role" }}<span>{{ . }}{{ with $.Get "org" }}, {{ . }}{{ end }}</span>{{ end }}
+  </footer>
+</blockquote>
+
+<style>
+.testimonial-inline {
+  background: var(--color-surface);
+  border-left: 4px solid var(--color-primary);
+  padding: var(--space-6);
+  margin: var(--space-8) 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.testimonial-inline .testimonial-quote {
+  font-size: var(--text-lg);
+  font-style: italic;
+  margin-bottom: var(--space-4);
+}
+
+.testimonial-inline .testimonial-author {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.testimonial-inline .testimonial-author span {
+  font-size: var(--text-sm);
+  color: var(--color-text-light);
+}
+</style>

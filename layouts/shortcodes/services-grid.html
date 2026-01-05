@@ -1,0 +1,16 @@
+{{/*
+  Services Grid Shortcode
+  Usage: {{< services-grid >}}
+  Automatically displays all services from the services section
+*/}}
+<div class="services-grid">
+  {{ range where .Site.RegularPages "Section" "services" }}
+  <article class="service-card">
+    <div class="service-icon">
+      {{ partial "icons/check.html" $ }}
+    </div>
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Description }}</p>
+  </article>
+  {{ end }}
+</div>

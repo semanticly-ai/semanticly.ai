@@ -1,0 +1,54 @@
+{{/*
+  Highlight Box Shortcode
+  Usage: {{< highlight-box type="info" title="Note" >}}
+  Content here
+  {{< /highlight-box >}}
+
+  Types: info, warning, success, tip
+*/}}
+{{ $type := .Get "type" | default "info" }}
+{{ $title := .Get "title" }}
+<div class="highlight-box highlight-box--{{ $type }}">
+  {{ with $title }}<strong class="highlight-box-title">{{ . }}</strong>{{ end }}
+  <div class="highlight-box-content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
+
+<style>
+.highlight-box {
+  padding: var(--space-6);
+  border-radius: var(--radius-md);
+  margin: var(--space-6) 0;
+  border-left: 4px solid;
+}
+
+.highlight-box--info {
+  background: #ebf8ff;
+  border-color: #4299e1;
+}
+
+.highlight-box--warning {
+  background: #fffaf0;
+  border-color: #ed8936;
+}
+
+.highlight-box--success {
+  background: #f0fff4;
+  border-color: #38a169;
+}
+
+.highlight-box--tip {
+  background: #faf5ff;
+  border-color: #9f7aea;
+}
+
+.highlight-box-title {
+  display: block;
+  margin-bottom: var(--space-2);
+}
+
+.highlight-box-content p:last-child {
+  margin-bottom: 0;
+}
+</style>

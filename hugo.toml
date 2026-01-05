@@ -1,0 +1,117 @@
+baseURL = "https://semanticly.ai/"
+languageCode = "en-us"
+title = "semanticly.ai | Knowledge Engineering with Human in the Loop"
+theme = "semanticly"
+
+# Build settings
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Pagination
+[pagination]
+  pagerSize = 10
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Menu configuration
+[menus]
+  [[menus.main]]
+    name = "Services"
+    pageRef = "/services"
+    weight = 10
+  [[menus.main]]
+    name = "Case Studies"
+    pageRef = "/case-studies"
+    weight = 20
+  [[menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 30
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 40
+  [[menus.main]]
+    name = "Resources"
+    pageRef = "/resources"
+    weight = 50
+  [[menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 60
+
+  [[menus.footer]]
+    name = "Privacy Policy"
+    pageRef = "/privacy"
+    weight = 10
+  [[menus.footer]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 20
+
+# Site parameters
+[params]
+  # Business info
+  businessName = "semanticly.ai"
+  tagline = "Knowledge Engineering with Human in the Loop"
+  description = "Developing AI-assisted data and ontology curation systems grounded in expert stewardship and responsible design."
+
+  # Contact
+  email = "nico@semanticly.ai"
+  location = "Remote-only (Athens, Greece)"
+
+  # Social links
+  linkedin = "https://www.linkedin.com/in/nmatentzoglu/"
+  github = "https://github.com/matentzn/"
+  orcid = "https://orcid.org/0000-0002-7356-1779"
+
+  # SEO
+  author = "Nicolas Matentzoglu"
+  keywords = ["semantic engineering", "ontology", "knowledge graph", "AI", "data curation", "FAIR data", "consulting"]
+
+  # Analytics (disabled by default - set to your ID to enable)
+  # googleAnalytics = "G-XXXXXXXXXX"
+  # plausibleDomain = "semanticly.ai"
+
+  # Contact form (using Formspree - replace with your form ID)
+  formspreeId = "mojvbrjr"
+
+
+  # Brand colors (easily customizable)
+  [params.colors]
+    primary = "#2c5282"      # Deep blue
+    secondary = "#4a5568"    # Gray
+    accent = "#ed8936"       # Orange accent
+    background = "#f7fafc"   # Light gray
+    surface = "#ffffff"      # White
+    text = "#1a202c"         # Near black
+    textLight = "#718096"    # Medium gray
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS"]
+
+# Sitemap
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# Privacy settings
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+    anonymizeIP = true
+    respectDoNotTrack = true

@@ -1,0 +1,17 @@
+# Testimonials data
+# Add real testimonials here to display on the home page
+
+- quote: "Nicolas brings a rare combination of deep technical expertise and practical understanding of how to make semantic technologies work in real-world applications. His work on our ontology infrastructure has been transformative."
+  author: "%CLIENT_NAME%"
+  role: "%ROLE%"
+  organization: "%ORGANIZATION%"
+
+- quote: "The SSSOM standard and toolkit that Nicolas helped develop has become essential to how we manage mappings across our knowledge resources. His collaborative approach made the process smooth and productive."
+  author: "%CLIENT_NAME%"
+  role: "%ROLE%"
+  organization: "%ORGANIZATION%"
+
+- quote: "Working with semanticly.ai on our knowledge graph project exceeded our expectations. The combination of rigorous methodology and open standards expertise delivered exactly what we needed."
+  author: "%CLIENT_NAME%"
+  role: "%ROLE%"
+  organization: "%ORGANIZATION%"

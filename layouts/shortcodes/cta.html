@@ -1,0 +1,32 @@
+{{/*
+  CTA (Call to Action) Shortcode
+  Usage: {{< cta title="Ready to get started?" link="/contact" button="Get in Touch" >}}
+*/}}
+<div class="cta-band">
+  <div class="cta-band-content">
+    <h3>{{ .Get "title" | default "Ready to learn more?" }}</h3>
+    {{ with .Inner }}<p>{{ . }}</p>{{ end }}
+    <a href="{{ .Get "link" | default "/contact" }}" class="btn btn-primary">
+      {{ .Get "button" | default "Get in Touch" }}
+    </a>
+  </div>
+</div>
+
+<style>
+.cta-band {
+  background: var(--color-surface-alt);
+  padding: var(--space-10);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  margin: var(--space-10) 0;
+}
+
+.cta-band h3 {
+  margin-bottom: var(--space-4);
+}
+
+.cta-band p {
+  color: var(--color-text-light);
+  margin-bottom: var(--space-6);
+}
+</style>

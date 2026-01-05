@@ -1,0 +1,52 @@
+{{ define "main" }}
+<article class="page about-page">
+  <header class="page-header">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="about-intro">
+      <div class="about-photo-wrapper">
+        <img src="/images/nicolas-matentzoglu.jpg" alt="Nicolas Matentzoglu" class="about-photo" onerror="this.style.display='none'">
+        <div class="about-photo-placeholder" style="display:none;">
+          {{/* Placeholder shown if no image */}}
+          <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="100" r="98" fill="#E2E8F0" stroke="#CBD5E0" stroke-width="2"/>
+            <circle cx="100" cy="80" r="35" fill="#A0AEC0"/>
+            <path d="M35 175 C35 130 75 105 100 105 C125 105 165 130 165 175" fill="#A0AEC0"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="about-bio content">
+        {{ .Content }}
+      </div>
+    </div>
+
+    <section class="values-section">
+      <h2>Our Values</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <h3>Knowledge Engineering with Human in the Loop</h3>
+          <p>We believe the best systems combine machine efficiency with human judgment. Automation should empower experts, not replace them.</p>
+        </div>
+        <div class="value-card">
+          <h3>Open Standards</h3>
+          <p>We build on and contribute to open standards because interoperability and transparency benefit everyone in the long run.</p>
+        </div>
+        <div class="value-card">
+          <h3>Practical Solutions</h3>
+          <p>We focus on what works. Elegant theory is nice, but deployed, maintainable systems are what actually move the needle.</p>
+        </div>
+        <div class="value-card">
+          <h3>Knowledge Transfer</h3>
+          <p>We aim to leave your team more capable than we found them. Training and documentation are integral to every engagement.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</article>
+{{ end }}

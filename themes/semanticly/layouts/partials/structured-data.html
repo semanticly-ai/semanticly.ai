@@ -1,0 +1,84 @@
+{{/* Organization Schema */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ .Site.Params.businessName }}",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ .Site.BaseURL }}images/logo.png",
+  "description": "{{ .Site.Params.description }}",
+  "email": "{{ .Site.Params.email }}",
+  "sameAs": [
+    {{ with .Site.Params.linkedin }}"{{ . }}"{{ end }}{{ if and .Site.Params.linkedin .Site.Params.github }},{{ end }}
+    {{ with .Site.Params.github }}"{{ . }}"{{ end }}{{ if and .Site.Params.github .Site.Params.orcid }},{{ end }}
+    {{ with .Site.Params.orcid }}"{{ . }}"{{ end }}
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Nicolas Matentzoglu",
+    "jobTitle": "Independent Consultant: Semantic Engineering",
+    "url": "{{ .Site.BaseURL }}about/",
+    "sameAs": [
+      "https://orcid.org/0000-0002-7356-1779",
+      "https://www.linkedin.com/in/nmatentzoglu/",
+      "https://github.com/matentzn/"
+    ]
+  }
+}
+</script>
+
+{{/* Person Schema (for About page) */}}
+{{ if eq .RelPermalink "/about/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nicolas Matentzoglu",
+  "jobTitle": "Independent Consultant: Semantic Engineering",
+  "url": "{{ .Site.BaseURL }}about/",
+  "email": "{{ .Site.Params.email }}",
+  "knowsAbout": ["Ontology Development", "Knowledge Graphs", "Semantic Web", "FAIR Data", "AI-powered Data Curation"],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "University of Manchester"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "University of Cologne"
+    }
+  ],
+  "sameAs": [
+    "https://orcid.org/0000-0002-7356-1779",
+    "https://www.linkedin.com/in/nmatentzoglu/",
+    "https://github.com/matentzn/"
+  ]
+}
+</script>
+{{ end }}
+
+{{/* Article Schema (for blog posts) */}}
+{{ if and .IsPage (eq .Section "blog") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Person",
+    "name": "Nicolas Matentzoglu"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Params.businessName }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}images/logo.png"
+    }
+  }
+}
+</script>
+{{ end }}
