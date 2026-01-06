@@ -34,7 +34,7 @@ I work on projects ranging from focused consulting engagements (a few weeks) to 
 
 ### What is your availability?
 
-My availability varies depending on current commitments. For new projects, I typically have capacity within 2-4 weeks. For urgent needs, please mention this in your message.
+My availability depends on the scope and nature of your project. I rarely have capacity earlier than 3 months in advance, so please get in touch early if you're planning a larger engagement.
 
 ### Do you work with industry clients?
 
