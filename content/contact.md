@@ -34,7 +34,7 @@ I work on projects ranging from focused consulting engagements (a few weeks) to 
 
 ### What is your availability?
 
-My availability depends on the scope and nature of your project. I rarely have capacity earlier than 3 months in advance, so please get in touch early if you're planning a larger engagement.
+Availability depends on the scope and nature of your project. My calendar tends to fill up a few months ahead, so it's worth getting in touch early if you're planning a larger engagement.
 
 ### Do you work with industry clients?
 
