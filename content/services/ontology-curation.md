@@ -71,7 +71,7 @@ Curation is ongoing. We establish processes to surface issues:
 
 Curation fails when it's undocumented (no one knows why terms exist), inconsistent (different curators do different things), or unsustainable (one person's head holds all the knowledge).
 
-Our methodology makes curation explicit: patterns define what belongs, evidence documents why, and workflows ensure consistency. AI scales the extraction; humans make the decisions. The result is an ontology your community can trust—and maintain—long-term.
+This approach makes curation explicit: patterns define what belongs, evidence documents why, and workflows ensure consistency. AI scales the extraction; humans make the decisions. The result is an ontology your community can trust—and maintain—long-term.
 
 ## Tools We Use
 

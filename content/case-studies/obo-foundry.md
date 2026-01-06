@@ -19,13 +19,13 @@ Key challenges included:
 - Different quality standards across ontologies
 - Lack of shared tooling and workflows
 
-## Our Role
+## My Role
 
-As co-lead of the OBO Foundry Technical Working Group, we spearheaded initiatives to standardize practices across the community.
+As co-lead of the OBO Foundry Technical Working Group, I spearheaded initiatives to standardize practices across the community.
 
 ### Ontology Development Kit (ODK)
 
-We developed and maintain the [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit), a Docker-based toolbox that provides:
+I developed and maintain the [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit), a Docker-based toolbox that provides:
 
 - **Reproducible builds**: Same tools, same versions, same results
 - **Standardized workflows**: Common Makefile targets for release, validation, etc.
@@ -36,7 +36,7 @@ The ODK has been adopted by **120+ ontologies worldwide**.
 
 ### OBO Academy
 
-We co-founded [OBO Academy](https://oboacademy.github.io/obook/), a community resource that:
+I co-founded [OBO Academy](https://oboacademy.github.io/obook/), a community resource that:
 
 - Consolidates training materials and tutorials
 - Documents best practices and standard operating procedures
@@ -45,7 +45,7 @@ We co-founded [OBO Academy](https://oboacademy.github.io/obook/), a community re
 
 ### Standards Development
 
-We contributed to OBO Foundry standards including:
+I contributed to OBO Foundry standards including:
 
 - Metadata specifications for ontology registration
 - Quality metrics and automated validation
@@ -59,10 +59,7 @@ We contributed to OBO Foundry standards including:
 - **Reduced maintenance burden** through shared tooling
 - **Improved interoperability** through consistent practices
 - **Community knowledge sharing** via OBO Academy
-
-## Broader Impact
-
-The OBO Foundry's approach to open, interoperable ontologies has become a model for other scientific communities. Our work helps ensure this ecosystem remains sustainable and continues to deliver value to researchers worldwide.
+- **Model for other communities**: The OBO Foundry's approach has influenced how other scientific domains organize open ontology efforts
 
 ## Technologies Used
 

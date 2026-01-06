@@ -1,8 +1,8 @@
 ---
 title: "Services"
-description: "Expert consulting in semantic technologies, ontology development, and knowledge graph infrastructure for research organizations and enterprises."
+description: "Ontology development, semantic mapping, and knowledge graph consulting for research organizations and enterprises."
 ---
 
-We provide specialized consulting services to help organizations harness the power of semantic technologies. Our expertise spans the full lifecycle of knowledge management systems, from initial design through to deployment and training.
+Most of my work falls into four areas. In practice, projects often combine several—a knowledge graph needs an ontology; an ontology needs mappings to external resources; mappings need infrastructure to stay current.
 
-Each engagement is tailored to your specific needs, whether you're building a new ontology from scratch, integrating disparate data sources, or establishing sustainable curation workflows.
+I'm not precious about boundaries. If you're not sure which service fits, just describe your problem—we'll figure out the right approach together.

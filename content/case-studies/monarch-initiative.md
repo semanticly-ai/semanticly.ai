@@ -19,13 +19,13 @@ Managing the ontological infrastructure for such a vast, multi-source knowledge 
 - Scalable curation workflows for community contributions
 - High-quality, well-documented releases
 
-## Our Role
+## My Role
 
-As lead of the ontology engineering working group, our responsibilities included:
+As lead of the ontology engineering working group, my responsibilities included:
 
 ### Unified Phenotype Ontology (uPheno)
 
-We developed and maintain [uPheno](https://obofoundry.org/ontology/upheno.html), an integrated ontology that enables cross-species phenotype comparison. This involved:
+I developed and maintain [uPheno](https://obofoundry.org/ontology/upheno.html), an integrated ontology that enables cross-species phenotype comparison. This involved:
 
 - Coordinating with multiple species-specific ontology communities
 - Developing shared design patterns for phenotype representation
@@ -34,7 +34,7 @@ We developed and maintain [uPheno](https://obofoundry.org/ontology/upheno.html),
 
 ### Human Phenotype Ontology (HPO) Infrastructure
 
-For [HPO](https://hpo.jax.org), the standard for human phenotypic abnormalities, we:
+For [HPO](https://hpo.jax.org), the standard for human phenotypic abnormalities, I:
 
 - Developed the automated release system with continuous integration
 - Implemented standardized versioning and metadata
@@ -43,7 +43,7 @@ For [HPO](https://hpo.jax.org), the standard for human phenotypic abnormalities,
 
 ### Cross-Ontology Alignment
 
-We built frameworks for maintaining alignment between Monarch's ontologies and external resources, using:
+I built frameworks for maintaining alignment between Monarch's ontologies and external resources, using:
 
 - Automated matching algorithms
 - Human-in-the-loop review workflows

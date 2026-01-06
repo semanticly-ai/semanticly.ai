@@ -12,6 +12,16 @@ I am particularly interested in projects that use modern AI approaches (LLM's, a
 
 Based in Athens, Greece, I work remotely with teams worldwide—from research institutions and NGOs to industry partners building next-generation data infrastructure.
 
+### Why This Work
+
+I find ontology engineering interesting because it sits at the intersection of two things most people think are separate: technical systems and human understanding.
+
+An ontology isn't just a data structure. It's a community's attempt to say "this is what we mean when we say X" in a way that both humans and machines can use. Getting that right—especially when different communities have different mental models—is genuinely hard. And when you get it wrong, real consequences follow: papers that can't be reproduced, databases that can't be integrated, researchers talking past each other.
+
+What I find most interesting are the problems that can't be fully automated. Anyone can run a string-matching algorithm. The hard part is knowing when "asthma" in one database means the same thing as "asthma" in another—and when it doesn't. That's where domain expertise, clear thinking, and careful system design all have to work together.
+
+I'm particularly interested right now in how AI can help with the tedious parts of this work without undermining the expert judgment that makes it trustworthy. The goal isn't to replace curators—it's to let them focus on the decisions that actually require a human brain.
+
 ### Background
 
 **Education**:

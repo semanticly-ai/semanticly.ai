@@ -52,8 +52,8 @@ enableGitInfo = true
 [params]
   # Business info
   businessName = "semanticly.ai"
-  tagline = "Knowledge Engineering with Human in the Loop"
-  description = "Developing AI-assisted data and ontology curation systems grounded in expert stewardship and responsible design."
+  tagline = "Knowledge Engineering Where Humans Stay in Control"
+  description = "AI can scale data curation. But someone still needs to understand what's happening and why. I build systems that keep experts in the driver's seat."
 
   # Contact
   email = "nico@semanticly.ai"

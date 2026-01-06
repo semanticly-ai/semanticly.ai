@@ -14,13 +14,13 @@ The medical community uses many different systems to classify diseases—ICD, OM
 
 [Mondo](https://mondo.monarchinitiative.org/) was created to provide a unified disease ontology that integrates and reconciles these diverse resources.
 
-## Our Contribution
+## My Role
 
-We developed and maintain the technical infrastructure that keeps Mondo aligned with external disease resources through continuous reconciliation.
+I developed and maintain the technical infrastructure that keeps Mondo aligned with external disease resources through continuous reconciliation.
 
 ### Mapping Pipeline
 
-Our pipeline automatically:
+The pipeline automatically:
 
 1. **Detects changes** in external resources (new terms, modifications, deprecations)
 2. **Generates candidate mappings** using multiple matching algorithms
@@ -29,7 +29,7 @@ Our pipeline automatically:
 
 ### Human Review Workflow
 
-We designed GitHub-based workflows that enable:
+I designed GitHub-based workflows that enable:
 
 - Clear presentation of mapping candidates with evidence
 - Structured review process with documented decisions
@@ -38,7 +38,7 @@ We designed GitHub-based workflows that enable:
 
 ### Quality Assurance
 
-Our validation system ensures:
+The validation system ensures:
 
 - Logical consistency of all mappings
 - Detection of circular or redundant mappings
@@ -51,17 +51,7 @@ Our validation system ensures:
 - **Monthly releases** with full provenance and validation
 - **Community adoption** by major databases and clinical systems
 - **Transparent process** enabling community participation
-
-## Key Innovation
-
-The Mondo reconciliation framework demonstrates that large-scale ontology alignment is tractable when you combine:
-
-- Automated detection and matching
-- Structured human review at decision points
-- Rigorous quality control
-- Community governance
-
-This approach has influenced how other ontology projects think about external alignment.
+- **Reusable framework** that has influenced how other ontology projects approach external alignment
 
 ## Technologies Used
 

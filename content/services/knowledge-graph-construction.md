@@ -81,7 +81,7 @@ The result is a single graph where you can query across all sources while still 
 
 Most knowledge graph projects fail because they start with data, not questions. They ingest everything, document nothing, and produce a hairball no one trusts.
 
-Our methodology inverts this: start from use cases, document every transformation, and maintain provenance throughout. The result is a graph you can actually use—and extend—with confidence.
+My approach inverts this: start from use cases, document every transformation, and maintain provenance throughout. The result is a graph you can actually use—and extend—with confidence.
 
 ## Past Work
 

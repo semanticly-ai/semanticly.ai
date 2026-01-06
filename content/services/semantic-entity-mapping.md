@@ -63,7 +63,7 @@ For continuous mappings, we establish update cycles and change detection so your
 
 ## Why This Approach
 
-Most mapping efforts fail in one of two ways: they're too automated (generating garbage), or too manual (never finishing). Our methodology balances both—using automation to scale, and human expertise where it matters.
+Most mapping efforts fail in one of two ways: they're too automated (generating garbage), or too manual (never finishing). This methodology balances both—using automation to scale, and human expertise where it matters.
 
 The result: mappings you can trust, with clear provenance for every decision.
 

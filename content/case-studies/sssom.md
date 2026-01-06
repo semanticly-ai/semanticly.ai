@@ -17,9 +17,9 @@ Mappings between ontologies, databases, and vocabularies are essential for data 
 - Track provenance and justifications
 - Aggregate mappings from multiple sources
 
-## Our Solution: SSSOM
+## My Role
 
-We led the development of the [Simple Standard for Sharing Ontological Mappings (SSSOM)](https://w3id.org/sssom), a community-driven specification that defines:
+I led the development of the [Simple Standard for Sharing Ontological Mappings (SSSOM)](https://w3id.org/sssom), a community-driven specification that defines:
 
 ### A Standard Format
 
@@ -36,40 +36,20 @@ We led the development of the [Simple Standard for Sharing Ontological Mappings 
 
 ### Tooling Ecosystem
 
-We developed supporting tools including:
+I developed supporting tools including:
 
 - **sssom-py**: Python library for reading, writing, validating, and transforming SSSOM
 - **Validation rules**: Automated quality checks for mapping files
 - **Converters**: Transform from legacy formats to SSSOM
 - **Registry**: Central discovery point for published mapping sets
 
-## Community Adoption
-
-SSSOM has been adopted by:
-
-- **OBO Foundry ontologies** for inter-ontology mappings
-- **Monarch Initiative** for disease and phenotype mappings
-- **EMBL-EBI** for various database mappings
-- **Research Data Alliance** as a recommended practice
-
-The standard was developed through open community process, with input from dozens of contributors across institutions.
-
 ## Outcomes
 
 - **FAIR-compliant** mapping standard recognized by funding agencies
 - **Hundreds of mapping sets** now published in SSSOM format
+- **Adopted by major projects**: OBO Foundry, Monarch Initiative, EMBL-EBI, Research Data Alliance
 - **Active community** maintaining and extending the standard
 - **Interoperability** across previously siloed mapping efforts
-
-## Lessons Learned
-
-Building a successful community standard requires:
-
-1. **Real-world grounding**: Start from actual use cases, not abstract requirements
-2. **Low barrier to entry**: Keep the basic format simple (TSV, not XML)
-3. **Clear governance**: Transparent decision-making process
-4. **Tooling first**: People adopt standards when tools make it easy
-5. **Patience**: Community consensus takes time
 
 ## Technologies Used
 
