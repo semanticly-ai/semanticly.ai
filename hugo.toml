@@ -31,17 +31,13 @@ enableGitInfo = true
     pageRef = "/about"
     weight = 30
   [[menus.main]]
-    name = "Blog"
-    pageRef = "/blog"
-    weight = 40
-  [[menus.main]]
     name = "Resources"
     pageRef = "/resources"
-    weight = 50
+    weight = 40
   [[menus.main]]
     name = "Contact"
     pageRef = "/contact"
-    weight = 60
+    weight = 50
 
   [[menus.footer]]
     name = "Privacy Policy"
