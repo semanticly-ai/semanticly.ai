@@ -49,16 +49,6 @@ I'm a strong believer in the value of open ontologies and promote contributions 
 
 ---
 
-## Skills
-
-**Semantic Technologies**: OWL, RDF, SKOS, SPARQL, Ontology Engineering
-
-**Tools & Platforms**: Neo4j, Cypher, Python, Java, Docker, Git, Make, LinkML
-
-**Languages**: English, German, Greek
-
----
-
 ## Let's Work Together
 
 If you're looking for expertise in ontology development, knowledge graph construction, or FAIR data practices, [get in touch](/contact). I'm always happy to discuss how semantic technologies might help your organization.
