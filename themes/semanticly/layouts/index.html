@@ -10,6 +10,20 @@
         <a href="{{ "/services" | relURL }}" class="btn btn-primary">Explore Services</a>
         <a href="{{ "/contact" | relURL }}" class="btn btn-secondary">Get in Touch</a>
       </div>
+      <div class="hero-social">
+        {{ with .Site.Params.github }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="hero-social-link">
+          {{ partial "icons/github.html" }}
+          <span>GitHub</span>
+        </a>
+        {{ end }}
+        {{ with .Site.Params.orcid }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID" class="hero-social-link">
+          {{ partial "icons/orcid.html" }}
+          <span>ORCID</span>
+        </a>
+        {{ end }}
+      </div>
     </div>
     <div class="hero-visual">
       {{ partial "icons/hero-graphic.html" . }}
@@ -99,6 +113,48 @@
         <h3>Open by default</h3>
         <p>Where possible, I contribute tooling and standards back to the community. Your work benefits from shared infrastructure; the community benefits from yours.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+{{/* Excited About Section */}}
+<section class="section excited-section alt-bg" id="excited">
+  <div class="container">
+    <header class="section-header">
+      <h2>Projects I'd Love to Take On</h2>
+      <p>Beyond my core services, these are the kinds of challenges that get me out of bed in the morning.</p>
+    </header>
+
+    <div class="excited-grid">
+      <article class="excited-card">
+        <h3>Evidence-First Knowledge Systems</h3>
+        <p>Structured, symbolic data is how humans encode intentions without ambiguity. I'm passionate about building knowledge systems grounded in strong evidence modelling, provenance tracking, and community deliberation&mdash;where claims are backed by transparent, auditable records.</p>
+      </article>
+
+      <article class="excited-card">
+        <h3>Agentic Knowledge Graph Construction</h3>
+        <p>AI agents that assemble knowledge graphs from concrete evidence records, not hallucinated triples. Combining the scalability of LLMs with the rigour of structured evidence to build graphs you can actually trust.</p>
+      </article>
+
+      <article class="excited-card">
+        <h3>Environmental Data Integration</h3>
+        <p>Large-scale efforts that link environmental and climate datasets to support catastrophe prevention. I'm especially interested in helping global organisations build governance structures that integrate local communities and connect their data in meaningful, lasting ways.</p>
+      </article>
+
+      <article class="excited-card">
+        <h3>Strengthening Human Mental Models</h3>
+        <p>Agentic systems that help humans grow, not just their tools. Projects specifically targeted at building understanding&mdash;making domain experts more capable, not more dependent on automation.</p>
+      </article>
+
+      <article class="excited-card">
+        <h3>Drug Repurposing &amp; Rare Disease</h3>
+        <p>Identifying drug repurposing opportunities, making another dent in the rare disease landscape through data integration, agentic workflows for diagnosis and disease management. Having worked with Every Cure on this, I know the impact is real.</p>
+      </article>
+
+      <article class="excited-card">
+        <h3>Citizen Science &amp; Community Ontologies</h3>
+        <p>Supporting citizen science communities&mdash;like building ontologies for iNaturalist enthusiasts&mdash;where passionate amateurs and domain structure meet to create something greater than the sum of its parts.</p>
+      </article>
     </div>
   </div>
 </section>

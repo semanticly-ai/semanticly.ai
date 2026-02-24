@@ -580,6 +580,43 @@ hr {
 }
 
 /* --------------------------------------------------------------------------
+   Hero Social Links
+   -------------------------------------------------------------------------- */
+.hero-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .hero-social {
+    justify-content: flex-start;
+  }
+}
+
+.hero-social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-light);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  transition: color var(--transition-fast);
+}
+
+.hero-social-link:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.hero-social-link svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* --------------------------------------------------------------------------
    Cards
    -------------------------------------------------------------------------- */
 .card-grid {
@@ -893,6 +930,49 @@ hr {
 .testimonial-author span {
   font-size: var(--text-sm);
   color: var(--color-text-light);
+}
+
+/* --------------------------------------------------------------------------
+   Excited About Section
+   -------------------------------------------------------------------------- */
+.excited-grid {
+  display: grid;
+  gap: var(--space-6);
+}
+
+@media (min-width: 768px) {
+  .excited-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .excited-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.excited-card {
+  background: var(--color-background);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: var(--space-6);
+  transition: box-shadow var(--transition-normal);
+}
+
+.excited-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.excited-card h3 {
+  font-size: var(--text-lg);
+  color: var(--color-primary);
+  margin-bottom: var(--space-3);
+}
+
+.excited-card p {
+  color: var(--color-text-light);
+  font-size: var(--text-sm);
 }
 
 /* --------------------------------------------------------------------------
