@@ -51,6 +51,10 @@ I developed supporting tools including:
 - **Active community** maintaining and extending the standard
 - **Interoperability** across previously siloed mapping efforts
 
+### Why This Matters
+
+Before SSSOM, sharing mappings between projects meant ad-hoc spreadsheets with no provenance and no way to validate quality. Now, a mapping set published by one group can be directly consumed by another—with full confidence in where each mapping came from and why it was made. This enables data integration at a scale that was simply not possible before.
+
 ## Technologies Used
 
 - LinkML (semantic schema)

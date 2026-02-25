@@ -300,6 +300,11 @@ hr {
   height: 36px;
 }
 
+.logo-img {
+  height: 36px;
+  width: auto;
+}
+
 .nav-toggle {
   display: flex;
   flex-direction: column;
@@ -632,7 +637,7 @@ hr {
 
 @media (min-width: 1024px) {
   .card-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -758,12 +763,6 @@ hr {
 @media (min-width: 768px) {
   .case-studies-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .case-studies-grid {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 

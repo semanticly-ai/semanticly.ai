@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Get in touch to discuss your semantic engineering needs. We'd love to hear about your project."
+description: "Get in touch to discuss your semantic engineering needs. I'd love to hear about your project."
 layout: "contact"
 ---
 
@@ -24,7 +24,7 @@ I work remotely from Athens, Greece and collaborate with teams worldwide. Time z
 
 ### What types of projects do you take on?
 
-I work on projects ranging from focused consulting engagements (a few weeks) to ongoing technical partnerships (months to years). Typical projects include:
+I work on projects ranging from focused consulting engagements (a few weeks) to ongoing technical partnerships (months to years). Most of my work is with mission-driven organisations—research institutes, non-profits, rare disease consortia, environmental data initiatives—where the data work has a clear purpose beyond the data itself. Typical projects include:
 
 - Ontology development and curation
 - Knowledge graph design and implementation
@@ -32,17 +32,21 @@ I work on projects ranging from focused consulting engagements (a few weeks) to 
 - Establishing FAIR data practices
 - Training and capacity building
 
-### What is your availability?
+### What kind of project is the best fit?
 
-Availability depends on the scope and nature of your project. My calendar tends to fill up a few months ahead, so it's worth getting in touch early if you're planning a larger engagement.
+The engagements where I add the most value tend to share a few traits: they care about evidence and provenance (not just volume), they're open to contributing back to open standards, they prefer low-bureaucracy collaboration, and the people involved genuinely want to understand the system being built—not just hand it off. If that sounds like your project, we'll probably work well together.
+
+### What projects aren't a good fit?
+
+I'm not the right fit for pure ML/parameter tuning work (that's not my expertise), pure database performance optimisation, or projects that are heavily NDA-restricted with no path to open contribution—I do my best work in open, collaborative environments. I'm also not interested in projects where the brief is essentially "add AI" without a clear mission driving the work.
 
 ### Do you work with industry clients?
 
-Yes. While much of my work is with research organizations and NGOs, I also work with industry clients, particularly in biotech, pharma, and data-intensive sectors. The same principles of open standards and sustainable practices apply.
+Most of my work has been with research organisations and non-profits, though I've contributed to industry collaboration projects — typically where a research mission was driving the work. I'm open to industry engagements, especially when the outcome benefits a broader community or advances open standards, not just a single product.
 
-### What are your rates?
+### How does pricing work?
 
-Rates depend on the scope and nature of the work. I provide detailed proposals with transparent pricing after an initial discovery conversation.
+I prefer scoped statements of work over open-ended hourly billing — it keeps both sides focused on outcomes rather than time spent. For well-defined projects, I provide a fixed-price proposal after an initial discovery conversation. For ongoing partnerships where the scope evolves, I work on a retainer or periodic SOW basis. Pricing is transparent and I'm happy to walk through what it covers.
 
 ### Can you provide references?
 

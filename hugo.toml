@@ -19,13 +19,13 @@ enableGitInfo = true
 # Menu configuration
 [menus]
   [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 5
+  [[menus.main]]
     name = "Services"
     pageRef = "/services"
     weight = 10
-  [[menus.main]]
-    name = "Case Studies"
-    pageRef = "/case-studies"
-    weight = 20
   [[menus.main]]
     name = "About"
     pageRef = "/about"
@@ -52,8 +52,8 @@ enableGitInfo = true
 [params]
   # Business info
   businessName = "semanticly.ai"
-  tagline = "Knowledge Engineering Where Humans Stay in Control"
-  description = "AI can scale data curation. But someone still needs to understand what's happening and why. I build systems that keep experts in the driver's seat."
+  tagline = "Knowledge Engineering Grounded in Evidence"
+  description = "Every claim in a knowledge graph should trace back to evidence. Every mapping should carry its provenance. I help research organisations, non-profits, and mission-driven teams in biomedical and environmental data build systems where experts grow their understanding of their own domain."
 
   # Contact
   email = "nico@semanticly.ai"

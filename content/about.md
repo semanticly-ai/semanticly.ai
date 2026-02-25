@@ -1,16 +1,18 @@
 ---
 title: "About"
-description: "Meet the founder and learn about our approach to semantic engineering consulting."
+description: "Meet Nicolas Matentzoglu and learn about my approach to semantic engineering consulting."
 layout: "about"
 ---
 
 ## Nicolas Matentzoglu, PhD
 
-I'm a semantic engineering specialist with over 10 years of experience in ontology development, knowledge graph infrastructure, and FAIR data integration. My work focuses on designing collaborative, open systems that support global data interoperability.
+I co-lead the [OBO Foundry](https://obofoundry.org/) Technical Working Group, created and maintain the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit) used by 120+ ontologies worldwide, and led the development of the [SSSOM standard](https://w3id.org/sssom) for sharing semantic mappings. In 2024, I received the Excellence in Biocuration Award from the International Society for Biocuration.
 
-I am particularly interested in projects that use modern AI approaches (LLM's, agentic AI) for scaling up data and knowledge curation while recognising the importance of keeping humans in the loop - which, for me, does not just mean they are "informed" and "accountable" (e.g. as reviewers of selected pieces of content), but also continuously trained and "up-skilled" on their own mental models of the problem domain to _stay in control of their own knowledge_.
+My work sits at the intersection of knowledge engineering, evidence modelling, and data curation. I believe that every claim in a knowledge system should trace back to evidence, and that expert understanding is what makes these systems trustworthy.
 
-Based in Athens, Greece, I work remotely with teams worldwide—from research institutions and NGOs to industry partners building next-generation data infrastructure.
+I am particularly interested in projects where evidence-driven workflows are central—where claims carry provenance, where domain experts grow their understanding of the problem, and where automation (including AI) helps scale the tedious parts of curation without replacing the judgment that makes results trustworthy. "Keeping humans in the loop" for me does not just mean they are "informed" and "accountable"—it means they are continuously trained and up-skilled on their own mental models to _stay in control of their own knowledge_.
+
+Based in Athens, Greece, I work remotely with teams worldwide—from research institutions and non-profits to industry partners building next-generation data infrastructure.
 
 ### Why This Work
 
@@ -20,22 +22,24 @@ An ontology isn't just a data structure. It's a community's attempt to say "this
 
 What I find most interesting are the problems that can't be fully automated. Anyone can run a string-matching algorithm. The hard part is knowing when "asthma" in one database means the same thing as "asthma" in another—and when it doesn't. That's where domain expertise, clear thinking, and careful system design all have to work together.
 
-I'm particularly interested right now in how AI can help with the tedious parts of this work without undermining the expert judgment that makes it trustworthy. The goal isn't to replace curators—it's to let them focus on the decisions that actually require a human brain.
+I'm particularly interested right now in how we can scale the tedious parts of this work—through automation and AI—without undermining the expert judgment that makes it trustworthy. The goal isn't to replace curators—it's to let them focus on the decisions that actually require a human brain.
 
 ### Background
 
+I started in ontology reasoning research at the University of Manchester (PhD, 2015), where I worked on OWL ontology modularity and co-organised the OWL Reasoner Evaluation competition — work that gave me a deep empirical understanding of how reasoning scales (and breaks) in practice. That foundation still shapes how I approach ontology design: every modelling decision has computational consequences. I then moved to the European Bioinformatics Institute where I worked on ontology infrastructure at scale. Since 2020 I've been an independent consultant, and my work has progressively shifted from building individual ontologies to building the standards and tooling that entire communities depend on.
+
+**Key roles and contributions**:
+- Co-lead of the OBO Foundry Technical Working Group, coordinating infrastructure for 50+ biomedical ontologies
+- Creator and maintainer of the Ontology Development Kit (ODK), adopted by 120+ ontologies worldwide
+- Lead developer of the SSSOM mapping standard, now adopted across biomedical research, clinical data (OMOP), and industry
+- Technical Lead across all Monarch Initiative ontology projects (HPO, Mondo, uPheno)
+- As an external consultant, embedded with Every Cure's data team (via University of North Carolina), where my main project was contributing to the design of the disease list for their [MATRIX platform](https://github.com/everycure-org/matrix) — the curated set of diseases that drives their drug repurposing candidate predictions. Also contributed to open-sourcing practices, KG integration consulting, normalisation, mapping, and quality validation
+
 **Education**:
 - PhD in Computer Science, University of Manchester (2011-2015)
-  - Thesis: "Module-based classification of OWL ontologies"
-  - EPSRC-funded research
 - Diplom in Media Informatics and Law, University of Cologne (2005-2010)
 
-**Experience**:
-- Independent Consultant at semanticly.ai (2020 - Present)
-- Senior Semantic Web Developer at European Bioinformatics Institute (2018 - 2020)
-- Research Associate at University of Manchester (2014 - 2017)
-
-I've co-authored **30+ peer-reviewed publications** and contribute actively to open source tooling for the semantic web community.
+I've co-authored **30+ peer-reviewed publications** and received the **Excellence in Biocuration Award** (2024) from the International Society for Biocuration.
 
 ---
 
@@ -51,7 +55,7 @@ I regularly teach hands-on semantic technologies to audiences from industry and 
 
 ### Agile Mindset
 
-Most work should be people-first, iterative, and user-driven. We start with clear understanding of your needs, deliver incrementally, and adjust based on feedback. No multi-month black boxes.
+Most work should be people-first, iterative, and user-driven. I start with a clear understanding of your needs, deliver incrementally, and adjust based on feedback. No multi-month black boxes.
 
 ### Open Data
 

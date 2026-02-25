@@ -3,7 +3,7 @@
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <p class="hero-eyebrow">Independent Consulting — Nicolas Matentzoglu, PhD</p>
+      <p class="hero-eyebrow">Independent Consulting — Nicolas Matentzoglu, PhD | Co-lead, OBO Foundry Technical WG · Creator of ODK · Lead developer of SSSOM</p>
       <h1 class="hero-title">{{ .Site.Params.tagline }}</h1>
       <p class="hero-subtitle">{{ .Site.Params.description }}</p>
       <div class="hero-cta">
@@ -66,7 +66,7 @@
     </header>
 
     <div class="case-studies-grid">
-      {{ range first 3 (where .Site.RegularPages "Section" "case-studies") }}
+      {{ range (where .Site.RegularPages "Section" "case-studies") }}
       <article class="case-study-card">
         {{ with .Params.image }}
         <img src="{{ . }}" alt="{{ $.Title }}" class="case-study-image" loading="lazy">
@@ -83,9 +83,6 @@
       {{ end }}
     </div>
 
-    <div class="section-cta">
-      <a href="{{ "/case-studies" | relURL }}" class="btn btn-outline">View All Case Studies</a>
-    </div>
   </div>
 </section>
 
@@ -98,20 +95,20 @@
 
     <div class="process-steps">
       <div class="process-step">
-        <h3>No black boxes</h3>
-        <p>You'll understand what we're building and why. I document decisions, not just deliverables. When I leave, your team can maintain what we built.</p>
+        <h3>Every decision documented</h3>
+        <p>Every mapping carries its provenance. Every ontology change has an evidence trail. You'll know not just what was built, but why—and your team can maintain it without me.</p>
       </div>
       <div class="process-step">
-        <h3>Humans stay in control</h3>
-        <p>I use AI to scale the boring parts—candidate generation, pattern matching, bulk validation. But domain experts make the real decisions, with evidence they can interrogate.</p>
+        <h3>Experts grow, not just their tools</h3>
+        <p>Automation—including AI—can handle candidate generation, pattern matching, and bulk validation. But the goal isn't just human review of automated output. It's building your team's understanding of their own domain, so they become more capable, not more dependent.</p>
       </div>
       <div class="process-step">
-        <h3>Iterative, not waterfall</h3>
-        <p>We start with your actual questions, not a 50-page requirements doc. Deliver incrementally. Adjust based on what we learn.</p>
+        <h3>Evidence before architecture</h3>
+        <p>I start with your actual questions and the evidence that matters, not a 50-page requirements doc. The data model follows from what you need to know and what you can prove—not the other way around.</p>
       </div>
       <div class="process-step">
         <h3>Open by default</h3>
-        <p>Where possible, I contribute tooling and standards back to the community. Your work benefits from shared infrastructure; the community benefits from yours.</p>
+        <p>The ODK, SSSOM, and OBO Academy all started as project-specific work that became community infrastructure. Where possible, I build things that give back. Your work benefits from shared tooling; the community benefits from yours.</p>
       </div>
     </div>
   </div>
@@ -121,8 +118,8 @@
 <section class="section excited-section alt-bg" id="excited">
   <div class="container">
     <header class="section-header">
-      <h2>Projects I'd Love to Take On</h2>
-      <p>Beyond my core services, these are the kinds of challenges that get me out of bed in the morning.</p>
+      <h2>Where I Think the Field Needs to Go</h2>
+      <p>These are the missions I want to apply my skills to. If you're working on any of these, I'd like to talk.</p>
     </header>
 
     <div class="excited-grid">
@@ -148,7 +145,7 @@
 
       <article class="excited-card">
         <h3>Drug Repurposing &amp; Rare Disease</h3>
-        <p>Identifying drug repurposing opportunities, making another dent in the rare disease landscape through data integration, agentic workflows for diagnosis and disease management. Having worked with Every Cure on this, I know the impact is real.</p>
+        <p>As an external consultant, I was recently embedded with Every Cure's data team, where I contributed to the design of the disease list that drives their drug repurposing candidate predictions. That experience confirmed what I already believed: the rare disease space is where rigorous data integration has the most direct human impact. I want to keep working on drug repurposing, diagnosis support, and disease data integration.</p>
       </article>
 
       <article class="excited-card">
