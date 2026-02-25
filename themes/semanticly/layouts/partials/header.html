@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a href="{{ "/" | relURL }}" class="logo" aria-label="{{ .Site.Params.businessName }} - Home">
-      <img src="{{ "/images/semanticly_ai_noword.png" | relURL }}" alt="{{ .Site.Params.businessName }}" class="logo-img">
+    <a href="{{ .Site.BaseURL }}" class="logo" aria-label="{{ .Site.Params.businessName }} - Home">
+      <img src="{{ "images/semanticly_ai_noword.png" | absURL }}" alt="{{ .Site.Params.businessName }}" class="logo-img">
       <span class="logo-text">{{ .Site.Params.businessName }}</span>
     </a>
 

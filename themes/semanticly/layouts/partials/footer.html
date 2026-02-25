@@ -2,8 +2,8 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="{{ "/" | relURL }}" class="footer-logo">
-          <img src="{{ "/images/semanticly_ai_noword.png" | relURL }}" alt="{{ .Site.Params.businessName }}" class="logo-img">
+        <a href="{{ .Site.BaseURL }}" class="footer-logo">
+          <img src="{{ "images/semanticly_ai_noword.png" | absURL }}" alt="{{ .Site.Params.businessName }}" class="logo-img">
           <span>{{ .Site.Params.businessName }}</span>
         </a>
         <p class="footer-tagline">{{ .Site.Params.tagline }}</p>
