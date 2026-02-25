@@ -1,4 +1,4 @@
-baseURL = "https://semanticly.ai/"
+baseURL = "https://semanticly-ai.github.io/semanticly.ai/"
 languageCode = "en-us"
 title = "semanticly.ai | Knowledge Engineering with Human in the Loop"
 theme = "semanticly"
