@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: "How semanticly.ai handles your personal information."
 ---
 
-*Last updated: February 2026*
+*Last updated: 26 February 2026*
 
 ## Overview
 

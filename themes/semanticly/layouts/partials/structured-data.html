@@ -2,10 +2,10 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "ProfessionalService",
   "name": "{{ .Site.Params.businessName }}",
   "url": "{{ .Site.BaseURL }}",
-  "logo": "{{ .Site.BaseURL }}images/logo.png",
+  "logo": "{{ .Site.BaseURL }}images/semanticly_ai_logo.png",
   "description": "{{ .Site.Params.description }}",
   "email": "{{ .Site.Params.email }}",
   "sameAs": [
@@ -28,15 +28,15 @@
 </script>
 
 {{/* Person Schema (for About page) */}}
-{{ if eq .RelPermalink "/about/" }}
+{{ with .Page.File }}{{ if eq .ContentBaseName "about" }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Nicolas Matentzoglu",
   "jobTitle": "Independent Consultant: Semantic Engineering",
-  "url": "{{ .Site.BaseURL }}about/",
-  "email": "{{ .Site.Params.email }}",
+  "url": "{{ $.Site.BaseURL }}about/",
+  "email": "{{ $.Site.Params.email }}",
   "knowsAbout": ["Ontology Development", "Knowledge Graphs", "Semantic Web", "FAIR Data", "AI-powered Data Curation"],
   "alumniOf": [
     {
@@ -55,10 +55,10 @@
   ]
 }
 </script>
-{{ end }}
+{{ end }}{{ end }}
 
 {{/* Article Schema (for blog posts) */}}
-{{ if and .IsPage (eq .Section "blog") }}
+{{ if and .IsPage (or (eq .Section "blog") (eq .Section "case-studies")) }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,7 +76,7 @@
     "name": "{{ .Site.Params.businessName }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ .Site.BaseURL }}images/logo.png"
+      "url": "{{ .Site.BaseURL }}images/semanticly_ai_logo.png"
     }
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: "Evidence-Driven Curation"
 description: "Collaborative workflows that combine rigorous evidence documentation with domain expertise and modern automation — so your knowledge systems are trustworthy and maintainable."
+slug: "evidence-driven-curation"
 icon: "curation"
 weight: 2
 ---

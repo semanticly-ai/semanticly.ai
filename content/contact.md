@@ -34,7 +34,14 @@ I work on projects ranging from focused consulting engagements (a few weeks) to 
 
 ### What kind of project is the best fit?
 
-The engagements where I add the most value tend to share a few traits: they care about evidence and provenance (not just volume), they're open to contributing back to open standards, they prefer low-bureaucracy collaboration, and the people involved genuinely want to understand the system being built—not just hand it off. If that sounds like your project, we'll probably work well together.
+The engagements where I add the most value tend to share a few traits:
+
+- They care about evidence and provenance, not just volume
+- They're open to contributing back to open standards
+- They prefer low-bureaucracy collaboration
+- The people involved genuinely want to understand the system being built—not just hand it off
+
+If that sounds like your project, we'll probably work well together.
 
 ### What projects aren't a good fit?
 

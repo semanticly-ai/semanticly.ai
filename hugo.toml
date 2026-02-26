@@ -1,6 +1,6 @@
 baseURL = "https://semanticly-ai.github.io/semanticly.ai/"
 languageCode = "en-us"
-title = "semanticly.ai | Knowledge Engineering with Human in the Loop"
+title = "semanticly.ai | Knowledge Engineering Grounded in Evidence"
 theme = "semanticly"
 
 # Build settings

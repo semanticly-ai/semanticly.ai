@@ -35,29 +35,29 @@ I started in ontology reasoning research at the University of Manchester (PhD, 2
 
 **Education**:
 - PhD in Computer Science, University of Manchester (2011-2015)
-- Diplom (equiv. Master's) in Media Informatics and Law, University of Cologne (2005-2010)
+- Diplom (equivalent to Master's degree) in Media Informatics and Law, University of Cologne (2005-2010)
 
-I've co-authored **30+ peer-reviewed publications** and received the **Excellence in Biocuration Award** (2024) from the International Society for Biocuration.
+I've co-authored **[30+ peer-reviewed publications](https://orcid.org/0000-0002-7356-1779)** and received the **Excellence in Biocuration Award** (2024) from the International Society for Biocuration.
 
 ---
 
 ## Work Philosophy
 
-### Collaborative Remote Work
+### Every Decision Documented
 
-I work remotely and continuously strive to achieve the highest possible effectiveness of collaborative work in teams scattered across all time-zones. Clear communication, documented decisions, and asynchronous-friendly workflows are essential.
+I work remotely with teams worldwide, which makes documentation non-negotiable. Every mapping carries its provenance. Every ontology change has an evidence trail. Clear communication, documented decisions, and asynchronous-friendly workflows ensure distributed teams stay aligned—and your system remains maintainable without me.
 
-### Enabling Others
+### Experts Grow, Not Just Their Tools
 
-I regularly teach hands-on semantic technologies to audiences from industry and academia to enable them to perform complex knowledge engineering tasks autonomously. The goal is to make myself redundant—your team should be able to maintain and extend what we build together.
+I regularly teach hands-on semantic technologies to audiences from industry and academia. The goal is to make myself redundant—your team should be able to maintain and extend what we build together. Automation handles candidate generation and bulk validation, but the real aim is building your team's understanding of their own domain, so they become more capable, not more dependent.
 
-### Agile Mindset
+### Evidence Before Architecture
 
-Most work should be people-first, iterative, and user-driven. I start with a clear understanding of your needs, deliver incrementally, and adjust based on feedback. No multi-month black boxes.
+Most work should be iterative and user-driven. I start with your actual questions and the evidence that matters, not a requirements document. I deliver incrementally, adjust based on feedback, and let the data model follow from what you need to know and what you can prove. No multi-month black boxes.
 
-### Open Data
+### Open by Default
 
-I'm a strong believer in the value of open ontologies and promote contributions from industry to open data efforts. Where possible, I contribute tooling and training to Open Data initiatives—because the rising tide lifts all boats.
+I'm a strong believer in the value of open ontologies and promote contributions from industry to open data efforts. The ODK, SSSOM, and OBO Academy all started as project-specific work that became community infrastructure. Where possible, I build things that give back—because the rising tide lifts all boats.
 
 ---
 

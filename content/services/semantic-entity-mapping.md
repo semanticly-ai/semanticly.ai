@@ -71,7 +71,7 @@ The result: mappings you can trust, with clear provenance for every decision.
 
 ## Case Study
 
-Learn how I built a [continuous reconciliation system for Mondo](/case-studies/mondo/) that maintains 30,000+ mappings to external disease resources through automated matching and structured human review.
+See how Mondo maintains 30,000+ mappings to external disease resources through automated matching and structured human review in this [case study](/case-studies/mondo/).
 
 ---
 

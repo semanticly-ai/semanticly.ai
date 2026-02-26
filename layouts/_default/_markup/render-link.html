@@ -1,0 +1,13 @@
+{{- $url := .Destination -}}
+{{- if strings.HasPrefix $url "/" -}}
+{{- $page := .Page.Site.GetPage $url -}}
+{{- if $page -}}
+<a href="{{ $page.RelPermalink }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}</a>
+{{- else -}}
+<a href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}</a>
+{{- end -}}
+{{- else if or (strings.HasPrefix $url "http://") (strings.HasPrefix $url "https://") -}}
+<a href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }} target="_blank" rel="noopener noreferrer">{{ .Text }}</a>
+{{- else -}}
+<a href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}</a>
+{{- end -}}
