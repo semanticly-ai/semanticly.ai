@@ -75,7 +75,7 @@
       {{ range (where .Site.RegularPages "Section" "case-studies") }}
       <article class="case-study-card">
         {{ with .Params.image }}
-        <img src="{{ . }}" alt="{{ $.Title }}" class="case-study-image" loading="lazy">
+        <img src="{{ . }}" alt="{{ .Title }}" class="case-study-image" loading="lazy">
         {{ end }}
         <div class="case-study-content">
           <span class="case-study-category">{{ .Params.category }}</span>

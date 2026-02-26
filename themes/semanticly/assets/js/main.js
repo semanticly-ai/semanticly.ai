@@ -123,7 +123,7 @@
 
   // Contact form handling (for Formspree)
   function initContactForm() {
-    const form = document.querySelector('.contact-form form');
+    const form = document.querySelector('form.contact-form');
     if (!form) return;
 
     form.addEventListener('submit', function(e) {
