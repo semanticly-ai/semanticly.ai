@@ -13,6 +13,7 @@
     {{ with .Site.Params.github }}"{{ . }}"{{ end }}{{ if and .Site.Params.github .Site.Params.orcid }},{{ end }}
     {{ with .Site.Params.orcid }}"{{ . }}"{{ end }}
   ],
+  "areaServed": "Worldwide",
   "founder": {
     "@type": "Person",
     "name": "Nicolas Matentzoglu",
@@ -65,8 +66,8 @@
   "@type": "Article",
   "headline": "{{ .Title }}",
   "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}",
-  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{ if not .Date.IsZero }}"datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
+  {{ if not .Lastmod.IsZero }}"dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
   "author": {
     "@type": "Person",
     "name": "Nicolas Matentzoglu"

@@ -53,7 +53,7 @@ I retain your information only as long as necessary for the purposes described i
 
 ## Your Rights
 
-Depending on your location, you may have the right to:
+Under the EU General Data Protection Regulation (GDPR) and depending on your location, you may have the right to:
 
 - Access the personal information I hold about you
 - Request correction of inaccurate information

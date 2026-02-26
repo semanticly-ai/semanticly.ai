@@ -49,7 +49,7 @@ This engagement reinforced a conviction I bring to all my work: that formal doma
 
 ### Why This Matters
 
-Drug repurposing has the potential to help patients who have no other options — particularly in rare disease. Every Cure's MATRIX platform was named one of TIME's Best Inventions of 2025. The disease list is a small but critical piece of that pipeline: without a well-structured representation of what diseases exist and how they relate to each other, prediction is just noise.
+Drug repurposing has the potential to help patients who have no other options — particularly in rare disease. Every Cure's MATRIX platform was named one of [TIME's Best Inventions of 2025](https://time.com/collections/best-inventions-2025/7318443/every-cure-matrix/). The disease list is a small but critical piece of that pipeline: without a well-structured representation of what diseases exist and how they relate to each other, prediction is just noise.
 
 ## Links
 

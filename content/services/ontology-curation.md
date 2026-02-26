@@ -86,6 +86,10 @@ Having maintained Mondo's disease curation pipeline for years, I've learned that
 - **LLM integrations**: Automated term extraction, definition drafting, classification suggestions, and consistency checking
 - **Custom curation interfaces**: Simple UIs for domain experts who don't need to learn ontology tooling
 
+## Case Study
+
+See how Mondo maintains a unified disease ontology with automated extraction, rigorous evidence documentation, and community collaboration in this [case study](/case-studies/mondo/).
+
 ---
 
 [Get in touch](/contact) to discuss how I can help scale your curation workflows.

@@ -9,7 +9,7 @@ An overview of the open resources I work on — from ontologies used in clinical
 
 A selection of ontologies I actively contribute to.
 
-- **[Mondo Disease Ontology](https://mondo.monarchinitiative.org/)** — A unified disease ontology that reconciles ICD, OMIM, Orphanet, and other disease classification systems. Mondo provides a single coherent view of disease for researchers and clinicians working across sources.
+- **[Mondo Disease Ontology](https://mondo.monarchinitiative.org/)** ([case study](/case-studies/mondo/)) — A unified disease ontology that reconciles ICD, OMIM, Orphanet, and other disease classification systems. Mondo provides a single coherent view of disease for researchers and clinicians working across sources.
 
 - **[Human Phenotype Ontology (HPO)](https://hpo.jax.org/)** — The standard vocabulary for human phenotypic abnormalities, widely used in clinical genomics and rare disease diagnosis. I'm responsible for the entire technical infrastructure, QC, preparing community inputs for inclusion, and recently developing agentic approaches to improve ontology consistency.
 
@@ -51,9 +51,9 @@ A selection of ontologies I actively contribute to.
 
 ## Applied Projects
 
-- **[Monarch Initiative](https://monarchinitiative.org/)** — An international collaboration integrating gene, disease, and phenotype data across species to advance translational research. I'm the Technical Lead across all Monarch ontology projects, maintaining the ontological backbone that powers Monarch's knowledge graph.
+- **[Monarch Initiative](https://monarchinitiative.org/)** — An international collaboration integrating gene, disease, and phenotype data across species to advance translational research. See also the [OBO Foundry case study](/case-studies/obo-foundry/) for related community infrastructure work. I'm the Technical Lead across all Monarch ontology projects, maintaining the ontological backbone that powers Monarch's knowledge graph.
 
-- **[Every Cure MATRIX](https://github.com/everycure-org/matrix)** — I contributed to the design of the disease list for Every Cure's MATRIX drug repurposing platform. The list covers all ~22,000 disease entities in Mondo, enriched with metadata that enables targeted filtering to identify diseases of specific relevance in the context of a drug repurposing inquiry. Open-source and publicly available.
+- **[Every Cure MATRIX](https://github.com/everycure-org/matrix)** ([case study](/case-studies/every-cure/)) — I contributed to the design of the disease list for Every Cure's MATRIX drug repurposing platform. The list covers all ~22,000 disease entities in Mondo, enriched with metadata that enables targeted filtering to identify diseases of specific relevance in the context of a drug repurposing inquiry. Open-source and publicly available.
 
 - **[Research Data Alliance (RDA) FAIR Mappings](https://mapping-commons.github.io/rda-fair-mappings/)** — A Research Data Alliance working group developing practical guidelines for making semantic mappings FAIR. I contribute to both the recommendations and the reference implementations.
 

@@ -6,7 +6,7 @@ layout: "about"
 
 ## Nicolas Matentzoglu, PhD
 
-I co-lead the [OBO Foundry](https://obofoundry.org/) Technical Working Group, created and maintain the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit) used by 120+ ontologies worldwide, and led the development of the [SSSOM standard](https://w3id.org/sssom) for sharing semantic mappings. In 2024, I received the Excellence in Biocuration Award from the International Society for Biocuration.
+I co-lead the [OBO Foundry](https://obofoundry.org/) Technical Working Group, created and maintain the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit) used by 120+ ontologies worldwide, and led the development of the [SSSOM standard](https://w3id.org/sssom) for sharing semantic mappings.
 
 My work sits at the intersection of knowledge engineering, evidence modelling, and data curation. I believe that every claim in a knowledge system should trace back to evidence, and that expert understanding is what makes these systems trustworthy.
 
@@ -37,11 +37,11 @@ I started in ontology reasoning research at the University of Manchester (PhD, 2
 - PhD in Computer Science, University of Manchester (2011-2015)
 - Diplom (equivalent to Master's degree) in Media Informatics and Law, University of Cologne (2005-2010)
 
-I've co-authored **[30+ peer-reviewed publications](https://orcid.org/0000-0002-7356-1779)** and received the **Excellence in Biocuration Award** (2024) from the International Society for Biocuration.
+I've co-authored **[30+ peer-reviewed publications](https://orcid.org/0000-0002-7356-1779)** and [received the **Excellence in Biocuration Award** (2024)](https://www.biocuration.org/closing-the-gap-between-effective-biocuration-and-meaningful-ontology-evolution/) from the International Society for Biocuration.
 
 ---
 
-## Work Philosophy
+<h2 id="work-philosophy">Work Philosophy</h2>
 
 ### Every Decision Documented
 
