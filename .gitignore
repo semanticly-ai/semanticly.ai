@@ -31,3 +31,5 @@ node_modules/
 tmp/
 temp/
 /create
+
+CLAUDE.md
