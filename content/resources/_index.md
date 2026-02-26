@@ -19,6 +19,8 @@ A selection of ontologies I actively contribute to.
 
 - **[Cell Ontology (CL)](https://obofoundry.org/ontology/cl.html)** — A standard cell type classification used extensively in single-cell genomics to annotate and compare cell populations across experiments and species.
 
+- **[Ontology of Biological Attributes (OBA)](https://obofoundry.org/ontology/oba.html)** — A species-independent collection of interoperable phenotypic trait categories. OBA provides a computational bridge between Mendelian phenotypes and quantitative traits (e.g. GWAS, QTL), with terms used by the NHGRI-EBI GWAS Catalog for trait annotation.
+
 - **[Phenotype And Trait Ontology (PATO)](https://obofoundry.org/ontology/pato.html)** — A species-neutral vocabulary for phenotypic qualities (size, shape, colour, etc.) that underpins phenotype descriptions across many ontologies.
 
 - **[Environmental Conditions, Treatments and Exposures Ontology (ECTO)](https://obofoundry.org/ontology/ecto.html)** — Linking environmental exposures to health outcomes — a critical resource for environmental health research.
@@ -82,6 +84,7 @@ For a full list, see my [ORCID profile](https://orcid.org/0000-0002-7356-1779).
 - Matentzoglu N, Bello SM, et al. (2025). The Unified Phenotype Ontology (uPheno): a framework for cross-species integrative phenomics. *Genetics*.
 - Vasilevsky NA, Toro S, Matentzoglu N, et al. (2025). Mondo: Integrating Disease Terminology Across Communities. *Genetics*.
 - Gargano MA, Matentzoglu N, et al. (2024). The Human Phenotype Ontology in 2024. *Nucleic Acids Research*.
+- Stefancsik R, Balhoff JP, Balk MA, Matentzoglu N, et al. (2023). [The Ontology of Biological Attributes (OBA)—computational traits for the life sciences](https://pubmed.ncbi.nlm.nih.gov/37076585/). *Mammalian Genome*.
 - Chan LE, Thessen AE, et al. (2023). The Environmental Conditions, Treatments, and Exposures Ontology (ECTO). *Journal of Biomedical Semantics*.
 
 ### Applications
