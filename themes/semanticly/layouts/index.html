@@ -11,6 +11,12 @@
         <a href="{{ "/contact" | relURL }}" class="btn btn-secondary">Get in Touch</a>
       </div>
       <div class="hero-social">
+        {{ with .Site.Params.linkedin }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="hero-social-link">
+          {{ partial "icons/linkedin.html" }}
+          <span>LinkedIn</span>
+        </a>
+        {{ end }}
         {{ with .Site.Params.github }}
         <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="hero-social-link">
           {{ partial "icons/github.html" }}

@@ -108,7 +108,7 @@ I built the ODK because I saw the same infrastructure problems repeated across d
 
 ## Past Work
 
-- **[OBO Foundry](/case-studies/obo-foundry/)**: Standardized infrastructure across 50+ ontologies, deploying ODK workflows now used by 120+ projects worldwide
+- **[OBO Foundry](/case-studies/obo-foundry/)**: Standardized infrastructure across the OBO Foundry's 150+ registered ontologies, deploying ODK workflows now used by 120+ projects worldwide
 - **[Monarch Initiative](https://monarchinitiative.org)**: Integrating gene, disease, and phenotype data across species for translational research
 - **[Virtual Fly Brain](https://virtualflybrain.org)**: Drosophila neuroscience knowledge base linking anatomy, genetics, and imagery
 

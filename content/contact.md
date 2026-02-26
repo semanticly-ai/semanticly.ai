@@ -16,7 +16,7 @@ Whether you have a specific project in mind or just want to explore how semantic
 
 ### Location
 
-I work remotely from Athens, Greece and collaborate with teams worldwide. Time zone differences have never been a barrier—I'm used to working across US, European, and Asia-Pacific hours.
+I work remotely from Athens, Greece and collaborate with teams worldwide. Time zone differences have never been a barrier—I'm used to working across US and European hours, and have collaborated with teams in other time zones as well.
 
 ---
 

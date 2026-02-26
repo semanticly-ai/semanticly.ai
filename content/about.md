@@ -22,14 +22,12 @@ An ontology isn't just a data structure. It's a community's attempt to say "this
 
 What I find most interesting are the problems that can't be fully automated. Anyone can run a string-matching algorithm. The hard part is knowing when "asthma" in one database means the same thing as "asthma" in another—and when it doesn't. That's where domain expertise, clear thinking, and careful system design all have to work together.
 
-I'm particularly interested right now in how we can scale the tedious parts of this work—through automation and AI—without undermining the expert judgment that makes it trustworthy. The goal isn't to replace curators—it's to let them focus on the decisions that actually require a human brain.
-
 ### Background
 
 I started in ontology reasoning research at the University of Manchester (PhD, 2015), where I worked on OWL ontology modularity and co-organised the OWL Reasoner Evaluation competition — work that gave me a deep empirical understanding of how reasoning scales (and breaks) in practice. That foundation still shapes how I approach ontology design: every modelling decision has computational consequences. I then moved to the European Bioinformatics Institute where I worked on ontology infrastructure at scale. Since 2020 I've been an independent consultant, and my work has progressively shifted from building individual ontologies to building the standards and tooling that entire communities depend on.
 
 **Key roles and contributions**:
-- Co-lead of the OBO Foundry Technical Working Group, coordinating infrastructure for 50+ biomedical ontologies
+- Co-lead of the OBO Foundry Technical Working Group, coordinating infrastructure across its 150+ registered biomedical ontologies
 - Creator and maintainer of the Ontology Development Kit (ODK), adopted by 120+ ontologies worldwide
 - Lead developer of the SSSOM mapping standard, now adopted across biomedical research, clinical data (OMOP), and industry
 - Technical Lead across all Monarch Initiative ontology projects (HPO, Mondo, uPheno)
@@ -37,7 +35,7 @@ I started in ontology reasoning research at the University of Manchester (PhD, 2
 
 **Education**:
 - PhD in Computer Science, University of Manchester (2011-2015)
-- Diplom in Media Informatics and Law, University of Cologne (2005-2010)
+- Diplom (equiv. Master's) in Media Informatics and Law, University of Cologne (2005-2010)
 
 I've co-authored **30+ peer-reviewed publications** and received the **Excellence in Biocuration Award** (2024) from the International Society for Biocuration.
 

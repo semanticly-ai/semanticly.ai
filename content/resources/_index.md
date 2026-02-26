@@ -37,7 +37,7 @@ A selection of ontologies I actively contribute to.
 
 - **[Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit)** — A Docker-based framework I created for managing the full ontology lifecycle: project scaffolding, dependency management, validation, CI/CD, and reproducible releases. Used by 120+ ontologies worldwide.
 
-- **[Linked data Modeling Language (LinkML)](https://linkml.io/)** — A modelling language for authoring schemas that compile to JSON-Schema, SHACL, SQL, and more. I'm an active contributor, involved in strategic planning, metamodel evolution, and community governance development.
+- **[Linked Data Modeling Language (LinkML)](https://linkml.io/)** — A modelling language for authoring schemas that compile to JSON-Schema, SHACL, SQL, and more. I'm an active contributor, involved in strategic planning, metamodel evolution, and community governance development.
 
 - **[Babelon](https://github.com/monarch-initiative/babelon)** — A framework for managing ontology translations across languages, enabling multilingual access to biomedical ontologies.
 
@@ -63,7 +63,7 @@ A selection of ontologies I actively contribute to.
 
 - **[Simple Standard for Sharing Ontological Mappings (SSSOM) Tutorial](https://mapping-commons.github.io/sssom/)** — A hands-on guide to creating, validating, and sharing semantic mappings using the SSSOM standard.
 
-- **[Linked data Modeling Language (LinkML) Documentation](https://linkml.io/)** — Reference documentation and tutorials for the LinkML modelling framework.
+- **[Linked Data Modeling Language (LinkML) Documentation](https://linkml.io/)** — Reference documentation and tutorials for the LinkML modelling framework.
 
 ## Selected Publications
 

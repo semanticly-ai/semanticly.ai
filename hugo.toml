@@ -67,6 +67,7 @@ enableGitInfo = true
   # SEO
   author = "Nicolas Matentzoglu"
   keywords = ["semantic engineering", "ontology", "knowledge graph", "AI", "data curation", "FAIR data", "consulting"]
+  ogImage = "images/semanticly_ai_logo.png"
 
   # Analytics (disabled by default - set to your ID to enable)
   # googleAnalytics = "G-XXXXXXXXXX"
