@@ -43,6 +43,11 @@
             {{ partial "icons/orcid.html" }}
           </a>
           {{ end }}
+          {{ with .Site.Params.googleScholar }}
+          <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+            {{ partial "icons/google-scholar.html" }}
+          </a>
+          {{ end }}
         </div>
       </div>
     </div>

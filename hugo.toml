@@ -63,6 +63,7 @@ enableGitInfo = true
   linkedin = "https://www.linkedin.com/in/nmatentzoglu/"
   github = "https://github.com/matentzn/"
   orcid = "https://orcid.org/0000-0002-7356-1779"
+  googleScholar = "https://scholar.google.co.uk/citations?user=PaM2ut8AAAAJ"
 
   # SEO
   author = "Nicolas Matentzoglu"

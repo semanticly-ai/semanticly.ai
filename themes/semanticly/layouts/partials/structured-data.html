@@ -11,7 +11,8 @@
   "sameAs": [
     {{ with .Site.Params.linkedin }}"{{ . }}"{{ end }}{{ if and .Site.Params.linkedin .Site.Params.github }},{{ end }}
     {{ with .Site.Params.github }}"{{ . }}"{{ end }}{{ if and .Site.Params.github .Site.Params.orcid }},{{ end }}
-    {{ with .Site.Params.orcid }}"{{ . }}"{{ end }}
+    {{ with .Site.Params.orcid }}"{{ . }}"{{ end }}{{ if and .Site.Params.orcid .Site.Params.googleScholar }},{{ end }}
+    {{ with .Site.Params.googleScholar }}"{{ . }}"{{ end }}
   ],
   "areaServed": "Worldwide",
   "founder": {
@@ -22,7 +23,8 @@
     "sameAs": [
       "https://orcid.org/0000-0002-7356-1779",
       "https://www.linkedin.com/in/nmatentzoglu/",
-      "https://github.com/matentzn/"
+      "https://github.com/matentzn/",
+      "https://scholar.google.co.uk/citations?user=PaM2ut8AAAAJ"
     ]
   }
 }
@@ -52,7 +54,8 @@
   "sameAs": [
     "https://orcid.org/0000-0002-7356-1779",
     "https://www.linkedin.com/in/nmatentzoglu/",
-    "https://github.com/matentzn/"
+    "https://github.com/matentzn/",
+    "https://scholar.google.co.uk/citations?user=PaM2ut8AAAAJ"
   ]
 }
 </script>
