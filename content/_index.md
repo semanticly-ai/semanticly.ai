@@ -1,4 +1,4 @@
 ---
 title: "Home"
-description: "Developing AI-assisted data and ontology curation systems grounded in expert stewardship and responsible design."
+description: "Knowledge engineering grounded in evidence. I build ontologies, knowledge graphs, and semantic mappings with full provenance for mission-driven teams."
 ---
