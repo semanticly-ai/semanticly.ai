@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Meet Nicolas Matentzoglu and learn about my approach to semantic engineering consulting."
+description: "Meet me and learn about my approach to evidence-driven knowledge engineering."
 layout: "about"
 ---
 
